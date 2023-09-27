@@ -1,0 +1,42 @@
+.body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0; }
+    
+.centerBox{
+   text-align: center;
+   
+}
+.card{
+    display: flex;
+    background-color: white;
+    
+    align-items: center; 
+    justify-content: center;
+    margin: auto;
+    height: 300px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 20px;
+    position: relative;
+    .top-suit{
+        font-size: 60px;
+
+        position: absolute;
+        top: 16px;
+        left: 16px;
+    }
+    .number{
+        font-size: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .bottom-suit{
+        font-size: 60px;
+        position: absolute;
+        bottom: 16px;
+        right: 16px;
+    }
+}
